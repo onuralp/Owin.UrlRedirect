@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Owin.UrlRedirect</id>
+    <version>1.0</version>
+    <title>This owin module allows you to redirect the welcome page where you want to.</title>
+    <authors>Onuralp Taner | @onuralptaner</authors>
+    <projectUrl>https://github.com/onuralp/Owin.UrlRedirect</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      This owin module allows you to redirect the welcome page where you want to.
+    </description>
+    <tags>owin redirect welcomepage</tags>
+    <dependencies>
+      <dependency id="Microsoft.Owin" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Owin.RedirectUrl.dll" target="lib\net451\Owin.RedirectUrl.dll" />
+    <file src="bin\Release\Owin.RedirectUrl.pdb" target="lib\net451\Owin.RedirectUrl.pdb" />
+  </files>
+</package>
